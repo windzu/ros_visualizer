@@ -1,0 +1,6 @@
+<launch>
+    <node pkg="wind_visualizer" type="wind_visualizer" name="wind_visualizer" output="screen" ns="/perception/lidar_detector">
+        <param name="marker_display_duration" value="0.5"/>
+    </node>
+</launch>
+
